@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Search Application</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        nav:hover{
+            background-color: rgb(59, 47, 50);
+        }
+        #main, h1 {
+ 
+            animation: rotateFourTimes 4s linear 1;
+            
+            }
+            
+            @keyframes rotateFourTimes {
+            
+            0% {
+            
+            transform: rotate(0deg);
+            
+            }
+            
+            25% {
+            
+            transform: rotate(90deg);
+            
+            }
+            
+            50% {
+            
+            transform: rotate(180deg);
+            
+            }
+            
+            75% {
+            
+            transform: rotate(270deg);
+            
+            }
+            
+            100% {
+            
+            transform: rotate(360deg);
+            
+            }
+            
+            }
+body{
+    background-color: #bccbe2;
+   
+}
+#hero-img{
+    height: 80rem;
+    width: 100%;
+}
+nav{
+    background: #061121;
+} 
+footer{
+    background: #061121;
+    color: #ffff;
+}
+ #developer{
+    color: #ffff;
+ }
+#cryp {
+    color: #061121;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           
+            <a href="index.html"> <img src="./logo.svg" alt="logo" /></a>
+        </div>
+        <a class="searchPage" href="search.html" class="search-Page-Btn">Search</a>
+    </nav>
+    <section id="main">
+        <div class="hero-text">
+            <h2 id="cryp">CryptoView</h2>
+            <p id="cryp">The World's Leading <br> Cryptocurrency Platform </p>
+        </div>
+        <div class="hero-img">
+            <img  src="main_image.svg" alt="hero">
+        </div>
+    </section>
+    <div class="top-coins-container">
+        <h2>Top Coins</h2>
+        <div class="top-coins">
+        </div>
+    </div>
+    <footer>
+        <p class="text">CryptoDigital | Designed by <a  href="https://www.linkedin.com/in/imamul-haque-khan-557032195" target="_blank" id="developer">(IMAMUL HAQUE KHAN)</a></p>
+        <a href="https://github.com/rajakhan017" target="_blank"><img src="./Github.png" alt="logo" id="crypt"></a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

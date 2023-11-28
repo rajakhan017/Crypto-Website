@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Search Application</title>
+    <link rel="icon" href="./logo.svg" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="search.css" />
+    <style>
+        #crypto{
+            background-color: #061121;
+        }
+        footer{
+            background-color: #061121;
+            color: #ffff;
+        }
+        #developer{
+            color: #ffff;
+        }
+    </style>
+  </head>
+  <body>
+    <nav id="crypto">
+      <div class="logo">
+       <!-- // <img src="./Assests/images/logo.png" alt="logo" /> -->
+        <a href="index.html"> <img src="./logo.svg" alt="logo" /></a>
+      </div>
+      <a class="searchPage" href="./search.html" class="search-Page-Btn"
+        >Search</a
+      >
+    </nav>
+
+    <section class="searchResults">
+      <h2>Search</h2>
+      <div class="search-content">
+        <input type="text" placeholder="Enter Coin Name..." />
+        <button class="searchCoin">Search</button>
+      </div>
+      <hr />
+      <!-- Displaying the searched coin data -->
+      <section id="coinData">
+      </section>
+    </section>
+
+    <footer>
+      <p class="text">
+         CryptoDigital | Designed by
+        <a
+          href="https://www.linkedin.com/in/imamul-haque-khan-557032195"
+          target="_blank"
+          id="developer"
+          >(IMAMUL HAQUE KHAN)</a
+        >
+      </p>
+      <a href="https://github.com/rajakhan017" target="_blank"><img src="Github.png" alt="" /></a>
+    </footer>
+    <script src="search.js"></script>
+  </body>
+</html>
